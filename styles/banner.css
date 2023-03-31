@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Permanent+Marker&display=swap');
+
+.banner {
+    background-image: url("..//images/boobs.gif");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Fugaz One', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    text-decoration: solid;
+}
