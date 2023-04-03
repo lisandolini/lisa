@@ -2,6 +2,7 @@
 @import "buttons.css";
 @import "cards.css";
 @import "footer.css";
+@import "navbar.css";
 
 body{
     margin: 0;
@@ -13,5 +14,23 @@ a   {
 
 .container {
     width: 75%;
+    margin: 24px auto;
+}
 
+.text {
+    font-family: 'fugaz one', cursive;
+}
+
+.sous_titre {
+    font-family: 'fugaz one', cursive;
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+}
+
+.sous_titre2 {
+    font-family: 'fugaz one', cursive;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
 }

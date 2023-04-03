@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Permanent+Marker&display=swap');
 
 .banner {
-    background-image: url("..//images/boobs.gif");
+    background-image: url("..//images/delicioso.png");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -11,10 +11,82 @@
     flex-direction: column;
     justify-content: center;
     font-size: 50px;
-    align-items: center;
     font-family: 'Fugaz One', cursive;
     /* font-family: 'Permanent Marker', cursive; */
     color: aliceblue;
     text-shadow: 5px 5px 5px black;
     text-decoration: solid;
+}
+li {
+    font-family: "Robot";
+}
+ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav ul::after{
+content: "";
+display: table;
+clear: both;
+}
+nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    border-radius: 7px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-family: "Roboto";
+    font-size: 2.5vw;
+}
+nav a:hover{
+color: white;
+border-bottom: 2px solid gold;
+background-color: cornflowerblue;
+}
+
+nav #bresil:hover {
+    color: green;
+border-bottom: 2px solid blue;
+background-color: gold;
+}
+
+nav #chiliperou:hover {
+    color: blue;
+border-bottom: 2px solid red;
+background-color: white;
+}
+
+nav #mexique:hover {
+    color: white;
+border-bottom: 2px solid green;
+background-color: red;
+}
+
+nav #caraibes:hover {
+    color: white;
+border-bottom: 2px solid orangered;
+background-color: aqua;
+}
+
+.titre {
+    text-align: left;
+    margin-left: 10%;
 }
